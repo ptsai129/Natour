@@ -1,0 +1,21 @@
+/*reset*/
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    /*1rem= 10px now*/
+    font-size: 62.5%;
+}
+/*font setting*/
+body {
+ font-family:"Lato", serif;
+ font-weight: 400;
+ font-size: $default-font-size;
+ line-height: 1.7;
+ color:$color-gray-dark;
+ padding: 3rem;
+ box-sizing: border-box;
+}
